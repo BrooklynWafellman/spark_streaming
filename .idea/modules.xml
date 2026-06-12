@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer/Spark_Streaming.iml" filepath="$PROJECT_DIR$/.idea/modules/producer/Spark_Streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spark_Streaming/producer.main~1.iml" filepath="$PROJECT_DIR$/.idea/modules/Spark_Streaming/producer.main~1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/producer/producer.producer-build.iml" filepath="$PROJECT_DIR$/.idea/modules/producer/producer.producer-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spark_Streaming/producer.test~1.iml" filepath="$PROJECT_DIR$/.idea/modules/Spark_Streaming/producer.test~1.iml" />
+    </modules>
+  </component>
+</project>
