@@ -1,22 +1,25 @@
 import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileUtil, Path}
 import org.apache.spark.sql.SparkSession
+import com.typesafe.config.ConfigFactory
 
 object Producer {
   System.setProperty("spark.driver.host", "127.0.0.1")
 
-  val input_path = "C:\\Users\\brook\\IdeaProjects\\Spark_Streaming\\src\\main\\input"
-  val output_path = "C:\\Users\\brook\\IdeaProjects\\Spark_Streaming\\src\\main\\output"
-  val nb_files = 20
-  val batch_duration = 1
-  val isLoop = false
+
+  val config = ConfigFactory.load("producer.conf")
+
+  val input_path = config.getString("app.input_path")
+  val output_path = config.getString("app.output_path")
+  val nb_files = config.getInt("app.nb_files")
+  val batch_duration = config.getInt("app.batch_duration")
+  val isLoop = config.getBoolean("app.is_loop")
 
   val spark: SparkSession = SparkSession.builder()
     .appName("Spark Producer")
     .master("local[*]")
     .config("spark.log.level","WARN")
     .getOrCreate()
-
 
   def main(args: Array[String]): Unit = {
 

@@ -7,6 +7,7 @@
     <output url="file://$MODULE_DIR$/../../../target/scala-2.12/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../../src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../src/main/scala" isTestSource="false" />
     </content>
     <content url="file://$MODULE_DIR$/../../../target/scala-2.12/resource_managed/main" />
@@ -30,6 +31,7 @@
     <orderEntry type="library" name="sbt: org.apache.spark:spark-sql_2.12:3.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-mllib_2.12:3.5.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.spark:spark-streaming_2.12:3.5.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe:config:1.4.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.avro:avro:1.11.2:jar" level="project" />
     <orderEntry type="library" name="sbt: org.apache.avro:avro-mapred:1.11.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.twitter:chill_2.12:0.10.0:jar" level="project" />
