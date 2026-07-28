@@ -1,0 +1,4 @@
+v1
+{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00001-e622410e-738d-4914-9dc2-7c435397520f-c000.snappy.parquet","timestamp":1785254740576,"batchId":2}
+{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00002-4b358e99-3d51-4d82-bbf4-30a607bc40db-c000.snappy.parquet","timestamp":1785254740576,"batchId":2}
+{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00000-912207e4-5e54-47a7-ad8a-98ef72e9c140-c000.snappy.parquet","timestamp":1785254740577,"batchId":2}

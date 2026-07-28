@@ -1,0 +1,129 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:/Users/brook/AppData/Local/Temp/idea5013732036888200420.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:/Users/brook/AppData/Local/Temp/idea5013732036888200420.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.6 (Azul Systems, Inc. Java 11.0.31)
+[debug]       Load.loadUnit: plugins took 75.5306ms
+[debug]       Load.loadUnit: defsScala took 0.224ms
+[debug] [Loading] Scanning directory C:\Users\brook\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\brook\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 11.8229 ms
+[debug]           Load.resolveProject(global-plugins) took 39.1681ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\brook\.sbt\1.0\plugins, plugins: List(<none>))) took 72.3317ms
+[debug] [Loading] Done in C:\Users\brook\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 91.227ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1947ms
+[debug]     Load.loadUnit(file:/C:/Users/brook/.sbt/1.0/plugins/, ...) took 174.2172ms
+[debug]   Load.apply: load took 494.3863ms
+[debug]   Load.apply: resolveProjects took 5.6998ms
+[debug]   Load.apply: finalTransforms took 58.4208ms
+[debug]   Load.apply: config.delegates took 9.9237ms
+[debug]   Load.apply: Def.make(settings)... took 731.4846ms
+[debug]   Load.apply: structureIndex took 172.9539ms
+[debug]   Load.apply: mkStreams took 6.0647ms
+[info] loading global plugins from C:\Users\brook\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 10251.6542ms
+[debug]           Load.loadUnit: plugins took 26.0085ms
+[debug]           Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory C:\Users\brook\IdeaProjects\Spark_Streaming\project
+[debug]             Load.loadUnit: mkEval took 6.6303ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\brook\IdeaProjects\Spark_Streaming\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.6964 ms
+[info] loading settings for project spark_streaming-build from idea5013732036888200420.sbt ...
+[debug]               Load.resolveProject(spark_streaming-build) took 4.9035ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark_streaming-build, base: C:\Users\brook\IdeaProjects\Spark_Streaming\project, plugins: List(<none>))) took 7.0373ms
+[debug] [Loading] Done in C:\Users\brook\IdeaProjects\Spark_Streaming\project, returning: (spark_streaming-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2867.2754ms
+[debug]           Load.loadUnit: cleanEvalClasses took 11.849ms
+[debug]         Load.loadUnit(file:/C:/Users/brook/IdeaProjects/Spark_Streaming/project/, ...) took 2905.8079ms
+[debug]       Load.apply: load took 2907.2233ms
+[debug]       Load.apply: resolveProjects took 0.0965ms
+[debug]       Load.apply: finalTransforms took 8.1418ms
+[debug]       Load.apply: config.delegates took 0.3864ms
+[debug]       Load.apply: Def.make(settings)... took 92.181ms
+[debug]       Load.apply: structureIndex took 25.3162ms
+[debug]       Load.apply: mkStreams took 0.0025ms
+[info] loading project definition from C:\Users\brook\IdeaProjects\Spark_Streaming\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 3573.8994ms
+[debug]     Load.loadUnit: defsScala took 0.0024ms
+[debug] [Loading] Scanning directory C:\Users\brook\IdeaProjects\Spark_Streaming
+[debug]       Load.loadUnit: mkEval took 0.2732ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.GenerateAllManagedSourcesPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.jetbrains.sbt.GenerateAllManagedSourcesPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.0785 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 88.6151ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\brook\IdeaProjects\Spark_Streaming, plugins: List(<none>))) took 90.626ms
+[debug] [Loading] Done in C:\Users\brook\IdeaProjects\Spark_Streaming, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1715.2012ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.7941ms
+[debug]   Load.loadUnit(file:/C:/Users/brook/IdeaProjects/Spark_Streaming/, ...) took 5294.4136ms
+[debug] Load.apply: load took 5295.6966ms
+[debug] Load.apply: resolveProjects took 0.0929ms
+[debug] Load.apply: finalTransforms took 30.1784ms
+[debug] Load.apply: config.delegates took 0.2173ms
+[debug] Load.apply: Def.make(settings)... took 118.5173ms
+[debug] Load.apply: structureIndex took 18.5821ms
+[debug] Load.apply: mkStreams took 0.002ms
+[info] set current project to producer (in build file:/C:/Users/brook/IdeaProjects/Spark_Streaming/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

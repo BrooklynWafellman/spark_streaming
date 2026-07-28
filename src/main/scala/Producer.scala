@@ -2,12 +2,12 @@ import org.apache.hadoop.conf.Configuration
 import org.apache.hadoop.fs.{FileUtil, Path}
 import org.apache.spark.sql.SparkSession
 import com.typesafe.config.ConfigFactory
-
+import org.apache.spark.sql.functions.rand
 object Producer {
   System.setProperty("spark.driver.host", "127.0.0.1")
 
 
-  val config = ConfigFactory.load("producer.conf")
+  val config = ConfigFactory.load("config/producer.conf")
 
   val input_path = config.getString("app.input_path")
   val output_path = config.getString("app.output_path")
@@ -28,11 +28,13 @@ object Producer {
       .option("recursiveFileLookup", "true")
       .load(input_path)
       .select("path")
+      .orderBy(rand()).cache() // order parce que repartition shuffle pas trop
+
 
     do {
       println("Debut de l'insertion")
 
-      df.rdd.coalesce(1).foreachPartition { partitionIterator =>
+      df.rdd.repartition(1).foreachPartition { partitionIterator =>
 
         val hadoopConf = new Configuration()
         hadoopConf.setBoolean("fs.file.impl.disable.cache", true)
@@ -44,7 +46,8 @@ object Producer {
           batch.foreach { row =>
             val sourcePath = new Path(row.getAs[String]("path"))
             val fileName = sourcePath.getName
-            val destinationPath = new Path(s"$output_path/$fileName")
+            val folderName = sourcePath.getParent.getName
+            val destinationPath = new Path(s"$output_path/$folderName/$fileName")
 
             FileUtil.copy(fs, sourcePath, fs, destinationPath, false, hadoopConf)
           }

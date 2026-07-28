@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="sbt: com.adobe.xmp:xmpcore:6.1.11:jar" type="java-imported" external-system-id="SBT">
+    <properties groupId="com.adobe.xmp" artifactId="xmpcore" version="6.1.11" baseVersion="6.1.11" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
