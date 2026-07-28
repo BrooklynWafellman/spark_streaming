@@ -1,4 +1,0 @@
-v1
-{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/realResults/part-00000-9b14155e-03ff-4f97-b5b7-b451fe4e9bca-c000.snappy.parquet","size":703,"isDir":false,"modificationTime":1785254783415,"blockReplication":1,"blockSize":33554432,"action":"add"}
-{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/realResults/part-00001-faa1c17c-b327-44c2-bff2-75cc7f98a183-c000.snappy.parquet","size":1437,"isDir":false,"modificationTime":1785254783044,"blockReplication":1,"blockSize":33554432,"action":"add"}
-{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/realResults/part-00075-235c1582-ed3d-4678-b409-87be896eef6e-c000.snappy.parquet","size":1437,"isDir":false,"modificationTime":1785254786703,"blockReplication":1,"blockSize":33554432,"action":"add"}

@@ -9,8 +9,7 @@ from kernel import kernel
 
 
 def convert_img(content):
-    img = np.array(Image.open(io.BytesIO(content))).astype(np.float32)
-    img.resize((100,100,3)) # resize parce que les images ont pas toutes la meme taille
+    img = np.array(Image.open(io.BytesIO(content)).convert("RGB").resize((100, 100))).astype(np.float32)
     img_processed = preprocess(img, kernel.blur, grayscale=False)
     img_processed = preprocess(img_processed, kernel.edge_detection_3, grayscale=True, offset=128)
     return (

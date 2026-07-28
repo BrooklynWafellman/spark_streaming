@@ -1,4 +1,2 @@
 v1
-{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00000-912207e4-5e54-47a7-ad8a-98ef72e9c140-c000.snappy.parquet","size":130648,"isDir":false,"modificationTime":1785254740577,"blockReplication":1,"blockSize":33554432,"action":"add"}
-{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00001-e622410e-738d-4914-9dc2-7c435397520f-c000.snappy.parquet","size":41396,"isDir":false,"modificationTime":1785254740576,"blockReplication":1,"blockSize":33554432,"action":"add"}
-{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00002-4b358e99-3d51-4d82-bbf4-30a607bc40db-c000.snappy.parquet","size":14051,"isDir":false,"modificationTime":1785254740576,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///C:/Users/brook/IdeaProjects/Spark_Streaming/src/main/resources/db/base/part-00000-8db5876e-f125-4c80-bd00-5a5a9cba6ae5-c000.snappy.parquet","size":91128,"isDir":false,"modificationTime":1785279320579,"blockReplication":1,"blockSize":33554432,"action":"add"}

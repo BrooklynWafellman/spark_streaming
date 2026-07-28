@@ -1,13 +1,18 @@
 object Main {
     def main(args: Array[String]): Unit = {
-      val producerThread = new Thread(() => Producer.main(Array()))
+
       val consumerThread = new Thread(() => Consumer.main(Array()))
+      val producerThread = new Thread(() => Producer.main(Array()))
+      val InterfaceThread = new Thread(() => Interface.main(Array()))
 
-      producerThread.start()
       consumerThread.start()
+      producerThread.start()
+      InterfaceThread.start()
 
-      producerThread.join()
+
       consumerThread.join()
+      producerThread.join()
+      InterfaceThread.join()
       // join c'est pour eviter que le main s'arrete
     }
 }
