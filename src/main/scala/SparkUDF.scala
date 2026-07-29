@@ -44,7 +44,7 @@ object SparkUDF {
   val resultUdf = udf((processed: Array[Byte], shape: Array[Int]) => {
 
     val pixels = processed.map(b => (b & 0xff).toFloat / 255f) // normalisation comme en python
-    val onnxShape = Array(1L, shape(0).toLong, shape(1).toLong, shape(2).toLong) // (batch, channels, height, width)
+    val onnxShape = Array(1L, shape(0).toLong, shape(1).toLong, shape(2).toLong) // (batch, height, width, channels)
 
     Model.predict(pixels, onnxShape)
   })
