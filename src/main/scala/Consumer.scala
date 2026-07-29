@@ -19,6 +19,8 @@ object Consumer {
   val baseDbPath         = config_cons.getString("app.baseDbPath")
   val baseCheckpointPath = config_cons.getString("app.baseCheckpointPath")
 
+  val triggerTime = config_cons.getString("app.triggerTime")
+
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
@@ -63,7 +65,7 @@ object Consumer {
       .format("parquet")
       .option("path", baseDbPath)
       .option("checkpointLocation", baseCheckpointPath)
-      .trigger(Trigger.ProcessingTime("20 seconds"))
+      .trigger(Trigger.ProcessingTime(triggerTime))
       .start()
     // Toutes les agrégations pour le dashboard se font en batch dans le fichier Interface (en write stream c'etait un enfer)
 

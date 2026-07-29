@@ -106,13 +106,13 @@ object Interface extends JFXApp3 {
          |-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 10, 0, 0, 2);""".stripMargin
   }
 
-  // ---- Graphiques en ligne (prédictions / réel) : échelle Y fixe 0-20 ----
+  // ---- Graphiques en ligne (prédictions / réel) : échelle Y fixe 0-300 ----
   private def makeLineChart(chartTitle: String, yLabel: String): LineChart[Number, Number] = {
     val xAxis = new NumberAxis()
     xAxis.label = "Temps"
     xAxis.tickLabelFormatter = axisFormatter()
     xAxis.forceZeroInRange = false
-    val yAxis = new NumberAxis(0, 20, 2)
+    val yAxis = new NumberAxis(0, 300, 2)
     yAxis.label = yLabel
     yAxis.autoRanging = false
     val chart = new LineChart[Number, Number](xAxis, yAxis)
@@ -370,7 +370,7 @@ object Interface extends JFXApp3 {
     val rows = withEpochSeconds(
       windowed
         .groupBy(
-          window(col("ingest_time"), "20 seconds"),
+          window(col("ingest_time"), "5 seconds"),
           col("predicted_result")
         )
         .agg(count("*").as("count"))
@@ -393,7 +393,7 @@ object Interface extends JFXApp3 {
     val rows = withEpochSeconds(
       windowed
         .groupBy(
-          window(col("ingest_time"), "20 seconds"),
+          window(col("ingest_time"), "5 seconds"),
           col("real_result")
         )
         .agg(count("*").as("count"))

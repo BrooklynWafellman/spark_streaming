@@ -5,7 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53eaf7b2-246f-4c7c-b6d9-31e5f24eebb9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/target/global-logging/sbt-global-log13188162170415637383.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Presentation.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Presentation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Presentation.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/commits/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/checkpoint/base/sources/0/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/consumer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/consumer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/producer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/producer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/.part-00000-0549f936-10ca-4470-85be-b434f549e082-c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/.part-00000-415f05b7-9f5a-425b-884e-a44abc1056fe-c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/.part-00000-5b7c5137-e101-4f8b-9dd6-8fee5e6063a8-c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/.part-00000-8db5876e-f125-4c80-bd00-5a5a9cba6ae5-c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/.0.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/.1.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/.2.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/.3.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/_spark_metadata/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/part-00000-0549f936-10ca-4470-85be-b434f549e082-c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/part-00000-415f05b7-9f5a-425b-884e-a44abc1056fe-c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/part-00000-5b7c5137-e101-4f8b-9dd6-8fee5e6063a8-c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/base/part-00000-8db5876e-f125-4c80-bd00-5a5a9cba6ae5-c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/WithMask/1785278730145_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/WithMask/1785278762115_153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/WithoutMask/1785279309624_91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output/WithoutMask/1785279349184_43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Consumer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Consumer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Interface.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Interface.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Consumer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Consumer$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Interface$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Interface$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/config/consumer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/config/consumer.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/config/producer.conf" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/config/producer.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
